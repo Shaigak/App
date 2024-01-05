@@ -195,34 +195,18 @@ namespace Company.Controllers
             int id = int.Parse(Console.ReadLine());
             Helper.ChangeTextColor(ConsoleColor.DarkBlue, "Enter Department Name");
         EnterDepname: string departmentName = Console.ReadLine();
-            if (!Helper.ContainsLetters(departmentName) || string.IsNullOrWhiteSpace(departmentName))
-            {
-                Helper.ChangeTextColor(ConsoleColor.Red, "Invalid DepartmentName format");
-                goto EnterDepname;
-            }
+      
             Helper.ChangeTextColor(ConsoleColor.DarkBlue, "Enter Employee Name");
         EnterName: string name = Console.ReadLine();
-            if (!Helper.ContainsLetters(name) || string.IsNullOrWhiteSpace(name))
-            {
-                Helper.ChangeTextColor(ConsoleColor.Red, "Invalid Name format");
-                goto EnterName;
-            }
+        
             Helper.ChangeTextColor(ConsoleColor.DarkBlue, "Enter Employee Surname");
         EnterSurName: string surname = Console.ReadLine();
-            if (!Helper.ContainsLetters(surname) || string.IsNullOrWhiteSpace(surname))
-            {
-                Helper.ChangeTextColor(ConsoleColor.Red, "Invalid surname format");
-                goto EnterSurName;
-            }
+      
             Helper.ChangeTextColor(ConsoleColor.DarkBlue, "Enter Employee Age");
             byte age = byte.Parse(Console.ReadLine());
             Helper.ChangeTextColor(ConsoleColor.DarkBlue, "Enter Employee Adress");
         EnterAdress: string adress = Console.ReadLine();
-            if (!Helper.ContainsLetters(adress) || string.IsNullOrWhiteSpace(adress))
-            {
-                Helper.ChangeTextColor(ConsoleColor.Red, "Invalid Adress format");
-                goto EnterAdress;
-            }
+        
             Helper.ChangeTextColor(ConsoleColor.DarkBlue, "Enter Employee Email");
         startEmail: string emailInput = Console.ReadLine();
             if (Helper.ValidEmail(emailInput))

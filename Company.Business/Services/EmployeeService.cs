@@ -72,22 +72,26 @@ namespace Company.Business.Services
 
             var existEmployee = _employeeRepository.Get(e => e.Id == id);
             if (existEmployee is null) return null;
-            var existDepartment = _depRepository.Get(d => d.Name == departmentName && d.Id != existEmployee.Id);
-            if (existDepartment is not null) return null;
+            var existDepartment = _depRepository.Get(d => d.Name == departmentName );
+            if (existDepartment is  null) return null;
             if (!string.IsNullOrEmpty(employee.Name))
             {
                 existEmployee.Name = employee.Name;
             }
-            else
-            {
-                return existEmployee;
-            }
+         
             if (!string.IsNullOrEmpty(employee.Surname))
             {
                 existEmployee.Surname = employee.Surname;
             }
+
+            if (!string.IsNullOrEmpty(employee.Adress))
+            {
+                existEmployee.Adress = employee.Adress;
+            }
+
+        
+
             existEmployee.Department = existDepartment;
-            existEmployee.Adress = employee.Adress;
             existEmployee.PhoneNumber = employee.PhoneNumber;
             existEmployee.Salary = employee.Salary;
             existEmployee.Email = employee.Email;

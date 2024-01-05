@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.DataContext\\Company.DataContext.csproj": {}
+    "C:\\Users\\user\\Desktop\\Compa\\Company.DataContext\\Company.DataContext.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.DataContext\\Company.DataContext.csproj": {
+    "C:\\Users\\user\\Desktop\\Compa\\Company.DataContext\\Company.DataContext.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.DataContext\\Company.DataContext.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Compa\\Company.DataContext\\Company.DataContext.csproj",
         "projectName": "Company.DataContext",
-        "projectPath": "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.DataContext\\Company.DataContext.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Compa\\Company.DataContext\\Company.DataContext.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.DataContext\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Compa\\Company.DataContext\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.Domain\\Company.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.Domain\\Company.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\Compa\\Company.Domain\\Company.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\Compa\\Company.Domain\\Company.Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.Domain\\Company.Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\Compa\\Company.Domain\\Company.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.Domain\\Company.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Compa\\Company.Domain\\Company.Domain.csproj",
         "projectName": "Company.Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.Domain\\Company.Domain.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Compa\\Company.Domain\\Company.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\CompanyApp1\\Company.Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Compa\\Company.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
